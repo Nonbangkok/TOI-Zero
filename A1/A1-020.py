@@ -1,8 +1,4 @@
-a = []
-
-for i in range(3):
-    a.append(int(input()))
-
+a = [int(input()) for _ in range(3)]
 b = sorted(a)
 c = sorted(a,reverse=True)
 

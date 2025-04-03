@@ -1,7 +1,4 @@
-a = set()
-a.add(int(input()))
-a.add(int(input()))
-a.add(int(input()))
+a = set([input() for _ in range(3)])
 
 if len(a) == 1:
     print("all the same")

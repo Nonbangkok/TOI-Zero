@@ -1,0 +1,1 @@
+print(sum(input() in 'AEIOU' for _ in range(int(input()))))

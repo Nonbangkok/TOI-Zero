@@ -6,7 +6,4 @@ for x in standard:
     if a < x:
         chk = False
     
-if chk:
-    print("pass")
-else:
-    print("fail")
+print("yes" if chk else "fail")

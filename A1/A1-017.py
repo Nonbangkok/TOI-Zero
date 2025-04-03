@@ -1,11 +1,5 @@
-first = []
-second = []
-
-for i in range(3):
-    first.append(int(input()))
-
-for i in range(3):
-    second.append(int(input()))
+first = [int(input()) for _ in range(3)]
+second = [int(input()) for _ in range(3)]
 
 def solve():
     for i in range(3):
