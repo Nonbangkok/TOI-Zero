@@ -1,0 +1,11 @@
+s1 = input().split()
+s2 = input().split()
+
+if s1 == s2:print(1000000)
+elif s1[1] == s2[1]:print(100000)
+elif s1[0] == s2[0] and s1[1][2:] == s2[1][2:]:print(2000)
+elif s1[0] == s2[0] and s1[1][3:] == s2[1][3:]:print(1000)
+elif s1[1][2:] == s2[1][2:]:print(200)
+elif s1[1][3:] == s2[1][3:]:print(100)
+elif s1[0] == s2[0]:print(20)
+else: print(0)
